@@ -50,18 +50,18 @@
             return expectedValue;
         }
 
-        static List<List<T>> GenerateCombinations<T>(T[] elements, int k)
+        static List<List<int>> GenerateCombinations(int[] elements, int k)
         {
-            List<List<T>> result = new List<List<T>>();
-            GenerateCombinationsHelper(elements, k, 0, new List<T>(), result);
+            List<List<int>> result = new List<List<int>>();
+            GenerateCombinationsHelper(elements, k, 0, new List<int>(), result);
             return result;
         }
 
-        static void GenerateCombinationsHelper<T>(T[] elements, int k, int start, List<T> current, List<List<T>> result)
+        static void GenerateCombinationsHelper(int[] elements, int k, int start, List<int> current, List<List<int>> result)
         {
             if (k == 0)
             {
-                result.Add(new List<T>(current));
+                result.Add(new List<int>(current));
                 return;
             }
 
