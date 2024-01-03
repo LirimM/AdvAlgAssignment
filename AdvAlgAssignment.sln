@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvAlgAssignment", "AdvAlgAssignment\AdvAlgAssignment.csproj", "{50FCCDA9-E7BE-4956-9383-59B42EC333A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingSolution", "DynamicProgrammingSolution\DynamicProgrammingSolution.csproj", "{140A5328-6344-4812-88A6-F882B44EA377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{50FCCDA9-E7BE-4956-9383-59B42EC333A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50FCCDA9-E7BE-4956-9383-59B42EC333A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50FCCDA9-E7BE-4956-9383-59B42EC333A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140A5328-6344-4812-88A6-F882B44EA377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140A5328-6344-4812-88A6-F882B44EA377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140A5328-6344-4812-88A6-F882B44EA377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140A5328-6344-4812-88A6-F882B44EA377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
